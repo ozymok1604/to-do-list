@@ -1,0 +1,80 @@
+.task_header {
+  border: 2px solid gray;
+  border-radius: 5px;
+  font-size: 35px;
+  width: 200px;
+  align-items: center;
+  margin: 10px auto 20px;
+  padding: 5px;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  border: 2px solid black;
+
+  flex-direction: column;
+
+  border-radius: 5px;
+
+  flex-wrap: wrap;
+
+  height: 60vh;
+  justify-content: flex-start;
+  margin: 0 auto;
+  width: 70%;
+  padding: 30px;
+}
+
+.field_title {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.title_input {
+  width: 40vw;
+  font-size: 17px;
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+.description_input {
+  width: 40vw;
+  font-size: 17px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.date_input {
+  font-size: 17px;
+  width: 40vw;
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+.add_button {
+  margin-top: 50px;
+  height: 50px;
+  width: 150px;
+  background-color: green;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-size: 19px;
+}
+.add_button:hover {
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 0 16px 20px rgba(0, 0, 0, 0.2);
+}
+.add_button_disabled {
+  margin-top: 50px;
+  height: 50px;
+  width: 150px;
+  background-color: gray;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-size: 19px;
+}
