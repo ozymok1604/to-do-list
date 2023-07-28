@@ -1,5 +1,4 @@
 import { Task } from "../Task/Task";
-
 import styles from "./styles.module.scss";
 
 const CompletedTable = () => {

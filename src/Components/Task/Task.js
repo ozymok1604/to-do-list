@@ -1,15 +1,10 @@
 import { useState } from "react";
-
 import { useDispatch } from "react-redux";
-
 import { Link } from "react-router-dom";
-
 import { completeTask, deleteTask, editTask } from "../../store";
-
 import Delete from "../../assets/delete.svg";
-
 import Edit from "../../assets/edit.svg";
-
+import Completed from "../../assets/success.svg";
 import styles from "./styles.module.scss";
 
 const Task = ({ task, index, isCompleted }) => {
@@ -55,9 +50,11 @@ const Task = ({ task, index, isCompleted }) => {
       {isCompleted ? (
         <div className={styles.completed_status}>Completed</div>
       ) : (
-        <div onClick={onStatusClick} className={styles.status}>
-          {completed ? "Completed" : task?.status}
-        </div>
+        <img
+          src={Completed}
+          onClick={onStatusClick}
+          className={styles.status}
+        ></img>
       )}
 
       {!isCompleted && (

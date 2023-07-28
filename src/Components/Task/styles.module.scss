@@ -24,16 +24,14 @@
 }
 
 .status {
-  border: 1px solid black;
   padding: 5px;
-  width: 100px;
+
   text-align: center;
   border-radius: 3px;
 }
 .status:hover {
   cursor: pointer;
-  background-color: rgb(166, 230, 71);
-  color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 0 16px 20px rgba(0, 0, 0, 0.2);
 }
 
 .completed_status {

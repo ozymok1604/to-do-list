@@ -1,13 +1,8 @@
 import { useEffect } from "react";
-
 import { useDispatch, useSelector } from "react-redux";
-
 import { Task } from "../../Components/Task/Task";
-
 import { addTask } from "../../store";
-
 import { getFilteredList } from "../../utils/getFilteredList";
-
 import styles from "./styles.module.scss";
 
 const ToDoTable = () => {
@@ -57,7 +52,7 @@ const ToDoTable = () => {
         <div>Title</div>
         <div>Description</div>
         <div>Due date</div>
-        <div>Status</div>
+        <div>Complete</div>
         <div>Edit</div>
         <div>Delete</div>
       </div>

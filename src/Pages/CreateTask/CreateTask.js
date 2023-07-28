@@ -1,13 +1,8 @@
 import { useState } from "react";
-
 import { useDispatch, useSelector } from "react-redux";
-
 import { useNavigate } from "react-router-dom";
-
 import { addTask, editTask } from "../../store";
-
 import { getRandomNumber } from "../../utils/getRandomNumber";
-
 import styles from "./styles.module.scss";
 
 const CreateTask = () => {

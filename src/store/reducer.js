@@ -18,30 +18,30 @@ export const toDoReducer = (state = initialState, action) => {
     case ADD_TASK:
       return {
         ...state,
-        task: (state.task = action.task),
+        task: action.task,
       };
     case DELETE_TASK:
       return {
         ...state,
-        deletedTaskId: (state.deletedTaskId = action.deletedTaskId),
+        deletedTaskId: action.deletedTaskId,
       };
 
     case EDIT_TASK:
       return {
         ...state,
-        editedTask: (state.editedTask = action.editedTask),
+        editedTask: action.editedTask,
       };
 
     case COMPLETE_TASK:
       return {
         ...state,
-        completedTaskId: (state.completedTaskId = action.completedTaskId),
+        completedTaskId: action.completedTaskId,
       };
 
     case FILTER_TASKS:
       return {
         ...state,
-        filterValue: (state.filterValue = action.filterValue),
+        filterValue: action.filterValue,
       };
 
     default:

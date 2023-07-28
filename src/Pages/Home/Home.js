@@ -1,13 +1,8 @@
 import { useDispatch, useSelector } from "react-redux";
-
 import { Link } from "react-router-dom";
-
 import { editTask, filterTasks } from "../../store";
-
 import { ToDoTable } from "../../Components/ToDoTable/ToDoTable";
-
 import { CompletedTable } from "../../Components/CompletedTable";
-
 import styles from "./styles.module.scss";
 
 const Home = () => {
