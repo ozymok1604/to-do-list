@@ -34,7 +34,7 @@ const CreateTask = () => {
     setDate(e.target.value);
   };
   const onButtonClick = () => {
-    navigate("/todo/home");
+    navigate("/to-do-list");
     Object.keys(editedTask).length
       ? dispatch(
           editTask({

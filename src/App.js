@@ -10,8 +10,8 @@ function App() {
     <Provider store={store}>
       <BrowserRouter>
         <Routes>
-          <Route path="/todo/home" element={<Home />} />
-          <Route path="/todo/create-task" element={<CreateTask />} />
+          <Route path="/to-do-list" element={<Home />} />
+          <Route path="/to-do-list/create-task" element={<CreateTask />} />
         </Routes>
       </BrowserRouter>
     </Provider>

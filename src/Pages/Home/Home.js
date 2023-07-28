@@ -34,7 +34,7 @@ const Home = () => {
 
         <ToDoTable />
 
-        <Link to="/todo/create-task">
+        <Link to="/to-do-list/create-task">
           <button onClick={onAddTaskClick} className={styles.add_button}>
             Add a new Task!
           </button>

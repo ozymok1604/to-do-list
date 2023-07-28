@@ -62,7 +62,7 @@ const Task = ({ task, index, isCompleted }) => {
 
       {!isCompleted && (
         <>
-          <Link to="/todo/create-task">
+          <Link to="/to-do-list/create-task">
             <img onClick={onEditClick} className={styles.edit_img} src={Edit} />
           </Link>
           <img
